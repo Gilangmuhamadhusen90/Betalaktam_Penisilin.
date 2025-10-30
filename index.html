@@ -1,0 +1,165 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Betalaktam Penisilin — PT Meprofarm Pharmaceutical Industries</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700;900&family=Montserrat:wght@300;400;600&display=swap" rel="stylesheet">
+  <style>
+    :root{
+      --bg:#070707;
+      --card:#0f0f10;
+      --gold:linear-gradient(90deg,#f7d176 0%,#f0b33c 100%);
+      --accent:#f0b33c;
+      --glass: rgba(255,255,255,0.04);
+    }
+    *{box-sizing:border-box}
+    body{margin:0;font-family:Montserrat,system-ui,-apple-system,Segoe UI,Roboto,"Helvetica Neue",Arial;color:#eee;background:radial-gradient(ellipse at 10% 10%, rgba(240,179,60,0.06), transparent 10%), var(--bg);}
+    header{padding:48px 6%;display:flex;align-items:center;justify-content:space-between}
+    .brand{display:flex;align-items:center;gap:18px}
+    .logo{width:86px;height:86px;border-radius:12px;background:var(--gold);display:flex;align-items:center;justify-content:center;color:#111;font-weight:700;font-family:Playfair Display,serif;font-size:22px;box-shadow:0 8px 40px rgba(240,179,60,0.12)}
+    h1{font-family:Playfair Display,serif;font-size:42px;margin:0;letter-spacing:0.6px}
+    p.lead{opacity:0.85;margin:6px 0 0}
+
+    main{padding:20px 6% 80px}
+    .hero{display:grid;grid-template-columns:1fr 420px;gap:28px;align-items:center;margin-bottom:28px}
+    .hero-card{background:linear-gradient(180deg, rgba(255,255,255,0.02), transparent);padding:36px;border-radius:18px;box-shadow:0 12px 40px rgba(0,0,0,0.6)}
+    .hero-card h2{font-family:Playfair Display,serif;margin:0 0 8px}
+    .hero-card p{margin:0 0 14px;line-height:1.5}
+    .cta{display:inline-block;padding:12px 20px;border-radius:12px;background:var(--accent);color:#070707;font-weight:700;text-decoration:none}
+
+    .products{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:22px;margin-top:18px}
+    .product{background:var(--card);border-radius:14px;overflow:hidden;box-shadow:0 10px 30px rgba(2,2,2,0.6);border:1px solid rgba(255,255,255,0.03)}
+    .product img{width:100%;height:200px;object-fit:cover;display:block}
+    .p-body{padding:18px}
+    .p-title{font-family:Playfair Display,serif;margin:0 0 8px;font-size:20px}
+    .p-desc{margin:0 0 12px;opacity:0.9;line-height:1.5}
+
+    .controls{display:flex;gap:10px;align-items:center}
+    .btn-like,.btn-comment{background:transparent;border:1px solid rgba(255,255,255,0.06);padding:10px 12px;border-radius:10px;color:inherit;cursor:pointer}
+
+    footer{position:fixed;left:0;right:0;bottom:0;background:linear-gradient(180deg, rgba(0,0,0,0.6), rgba(0,0,0,0.85));backdrop-filter:blur(6px);padding:12px 6%;display:flex;align-items:center;justify-content:space-between;border-top:1px solid rgba(255,255,255,0.03)}
+    .social{display:flex;gap:12px}
+    .copyright{opacity:0.8;font-size:14px}
+
+    /* responsive */
+    @media(max-width:900px){.hero{grid-template-columns:1fr;}.logo{width:68px;height:68px}}
+  </style>
+</head>
+<body>
+  <header>
+    <div class="brand">
+      <div class="logo">MF</div>
+      <div>
+        <h1>PT Meprofarm</h1>
+        <p class="lead">Betalaktam — Kategori Penisilin (Antibiotik)</p>
+      </div>
+    </div>
+    <nav aria-label="top">
+      <a class="cta" href="#products">Lihat Produk</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-card">
+        <h2>Betalaktam Penisilin — Gambaran Umum</h2>
+        <p>Betalaktam penisilin merupakan kelompok antibiotik yang bekerja dengan menghambat sintesis dinding sel bakteri. PT Meprofarm Pharmaceutical Industries memproduksi beberapa formulasi populer berbasis amoksisilin dan kombinasi terkait untuk indikasi infeksi bakteri umum.</p>
+        <p><strong>Catatan:</strong> Informasi di halaman ini untuk tujuan edukasi. Gunakan obat sesuai resep dan petunjuk tenaga kesehatan.</p>
+        <a class="cta" href="#about">Tentang Betalaktam</a>
+      </div>
+
+      <aside style="background:var(--glass);padding:20px;border-radius:14px;">
+        <h3 style="margin-top:0;font-family:Playfair Display,serif">Dengarkan Musik</h3>
+        <p style="margin:6px 0 12px;opacity:0.9">Nikmati suasana mewah saat menjelajah produk.</p>
+        <audio controls preload="none" style="width:100%;border-radius:8px">
+          <source src="dreams.mp3" type="audio/mpeg">
+        </audio>
+      </aside>
+    </section>
+
+    <section id="products">
+      <h2 style="font-family:Playfair Display,serif">Produk Pilihan</h2>
+      <div class="products">
+        <!-- Amoxicillin -->
+        <article class="product">
+          <img src="Amoxicillin.png" alt="Amoxicillin">
+          <div class="p-body">
+            <h3 class="p-title">Amoxicillin</h3>
+            <p class="p-desc">Amoksisilin adalah antibiotik penisilin spektrum luas yang efektif terhadap berbagai bakteri Gram-positif dan beberapa Gram-negatif. Umumnya digunakan untuk infeksi saluran pernapasan, telinga, dan saluran kemih sesuai indikasi dokter.</p>
+            <div class="controls">
+              <button class="btn-like" onclick="like('amox')">👍 Like <span id="like-amox">0</span></button>
+              <button class="btn-comment" onclick="comment('Amoxicillin')">💬 Comment</button>
+            </div>
+          </div>
+        </article>
+
+        <!-- Ancla -->
+        <article class="product">
+          <img src="Ancla.png" alt="Ancla">
+          <div class="p-body">
+            <h3 class="p-title">Ancla</h3>
+            <p class="p-desc">Ancla adalah produk formula dari PT Meprofarm (nama produk dagang) yang mengandung amoksisilin dalam dosis yang dirancang untuk memenuhi standar mutu industri farmasi. Cocok untuk penggunaan yang diresepkan.</p>
+            <div class="controls">
+              <button class="btn-like" onclick="like('ancla')">👍 Like <span id="like-ancla">0</span></button>
+              <button class="btn-comment" onclick="comment('Ancla')">💬 Comment</button>
+            </div>
+          </div>
+        </article>
+
+        <!-- Clamixin -->
+        <article class="product">
+          <img src="Clamixin.png" alt="Clamixin">
+          <div class="p-body">
+            <h3 class="p-title">Clamixin</h3>
+            <p class="p-desc">Clamixin biasanya mengacu pada produk kombinasi amoksisilin dengan agen lain atau sediaan khusus (periksa kemasan). Produk kombinasi meningkatkan spektrum aktivitas terhadap bakteri yang memproduksi beta-laktamase.</p>
+            <div class="controls">
+              <button class="btn-like" onclick="like('clam')">👍 Like <span id="like-clam">0</span></button>
+              <button class="btn-comment" onclick="comment('Clamixin')">💬 Comment</button>
+            </div>
+          </div>
+        </article>
+
+        <!-- Co-Amoxiclav -->
+        <article class="product">
+          <img src="Co-Amoxiclav.png" alt="Co-Amoxiclav">
+          <div class="p-body">
+            <h3 class="p-title">Co-Amoxiclav</h3>
+            <p class="p-desc">Co-amoksiklav adalah kombinasi amoksisilin dan asam klavulanat (inhibitor beta-laktamase). Kombinasi ini efektif melawan bakteri yang menghasilkan enzim pemecah penisilin, sehingga memperluas efektivitas terapeutik.</p>
+            <div class="controls">
+              <button class="btn-like" onclick="like('coamox')">👍 Like <span id="like-coamox">0</span></button>
+              <button class="btn-comment" onclick="comment('Co-Amoxiclav')">💬 Comment</button>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="about" style="margin-top:30px;background:linear-gradient(180deg, rgba(255,255,255,0.02), transparent);padding:22px;border-radius:12px">
+      <h2 style="font-family:Playfair Display,serif">Tentang Betalaktam Penisilin di PT Meprofarm</h2>
+      <p>PT Meprofarm Pharmaceutical Industries memproduksi sediaan antibiotik berbasis kelompok betalaktam, khususnya turunan penisilin seperti amoksisilin dan kombinasi dengan inhibitor beta-laktamase. Produksi mengikuti prinsip Good Manufacturing Practice (GMP) dan sistem kontrol kualitas untuk memastikan keamanan, mutu, dan khasiat sediaan. Produk-produk ini umumnya diserap dan didistribusikan melalui jaringan fasilitas kesehatan dan apotek sesuai regulasi yang berlaku.</p>
+      <p>Jika Anda membutuhkan informasi resmi tentang formulasi, indikasi, kontraindikasi, efek samping, atau panduan penggunaan, silakan menghubungi perwakilan perusahaan atau tenaga kesehatan.</p>
+    </section>
+
+  </main>
+
+  <footer>
+    <div class="social">
+      <button class="btn-like" onclick="globalLike()">👍 Like <span id="glob-like">0</span></button>
+      <button class="btn-comment" onclick="openComments()">💬 Comment</button>
+    </div>
+    <div class="copyright">© <span id="owner">Gilang Muhamad Husen</span> — All rights reserved</div>
+  </footer>
+
+  <script>
+    // simple like counters
+    const counts = {amox:0,ancla:0,clam:0,coamox:0,global:0};
+    function like(k){counts[k]++; document.getElementById('like-'+(k==='amox'? 'amox': k)).innerText = counts[k]; document.getElementById('glob-like').innerText = ++counts.global;}
+    function comment(name){const text = prompt('Tulis komentar tentang '+name+':'); if(text){alert('Terima kasih! Komentar Anda telah dicatat (demo).')}}
+    function globalLike(){counts.global++; document.getElementById('glob-like').innerText = counts.global}
+    function openComments(){alert('Fitur komentar demo — integrasikan backend untuk menyimpan komentar.');}
+    // set owner from JS (in case you want to change programmatically)
+    document.getElementById('owner').innerText = 'Gilang Muhamad Husen';
+  </script>
+</body>
+</html>
